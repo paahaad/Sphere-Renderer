@@ -1,0 +1,13 @@
+[package]
+name = "pbr_spheres"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "24.0.1"
+winit = "0.29"
+pollster = "0.3"
+glam = "0.25"
+bytemuck = { version = "1.14", features = ["derive"] }
+raw-window-handle = "0.5"
+rand = "0.8"
